@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="192px" viewBox="0 0 124 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Mandala Small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.96145695,-3.88440115e-17 L123.038543,3.88440115e-17 C123.372863,-2.25694893e-17 123.494095,0.0348096042 123.616317,0.100174764 C123.738539,0.165539924 123.83446,0.261460639 123.899825,0.383682861 C123.96519,0.505905083 124,0.627137423 124,0.96145695 L124,191.038543 C124,191.372863 123.96519,191.494095 123.899825,191.616317 C123.83446,191.738539 123.738539,191.83446 123.616317,191.899825 C123.494095,191.96519 123.372863,192 123.038543,192 L0.96145695,192 C0.627137423,192 0.505905083,191.96519 0.383682861,191.899825 C0.261460639,191.83446 0.165539924,191.738539 0.100174764,191.616317 C0.0348096042,191.494095 1.50463262e-17,191.372863 -2.58960077e-17,191.038543 L2.58960077e-17,0.96145695 C-1.50463262e-17,0.627137423 0.0348096042,0.505905083 0.100174764,0.383682861 C0.165539924,0.261460639 0.261460639,0.165539924 0.383682861,0.100174764 C0.505905083,0.0348096042 0.627137423,2.25694893e-17 0.96145695,-3.88440115e-17 Z" id="path-1"></path>
+        <filter x="-32.3%" y="-10.4%" width="164.5%" height="141.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.282352941   0 0 0 0 0.223529412   0 0 0 0 0  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.282352941   0 0 0 0 0.282352941   0 0 0 0 0.282352941  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.282352941   0 0 0 0 0.282352941   0 0 0 0 0.282352941  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter4" result="shadowBlurOuter4"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter4" in2="SourceAlpha" operator="out" result="shadowBlurOuter4"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.282352941   0 0 0 0 0.282352941   0 0 0 0 0.282352941  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter5"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter5" result="shadowBlurOuter5"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter5" in2="SourceAlpha" operator="out" result="shadowBlurOuter5"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.282352941   0 0 0 0 0.282352941   0 0 0 0 0.282352941  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter5" result="shadowMatrixOuter5"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter6"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter6" result="shadowBlurOuter6"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter6" in2="SourceAlpha" operator="out" result="shadowBlurOuter6"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.282352941   0 0 0 0 0.282352941   0 0 0 0 0.282352941  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter6" result="shadowMatrixOuter6"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter5"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter6"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Mandala-Small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mandala">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Máscara">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <path stroke="#000000" stroke-width="8.25" d="M119.875,4.125 L4.125,4.125 L4.125,187.875 L119.875,187.875 L119.875,4.125 Z" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd"></path>
+                </g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(-482.000000, -428.000000)">
+                        <path d="M567.175771,520.858456 L567.175771,568.525771 L522.208675,568.525771 L522.208908,562.314973 C523.104244,562.583348 524.02808,562.647075 524.892673,562.332116 C528.472315,561.028621 533.144798,556.088519 533.144798,556.088519 C533.436524,555.780033 533.821088,555.838269 534.000852,556.216971 C534.000852,556.216971 535.709136,559.826291 537.421939,561.478538 C538.162555,562.192348 538.897607,563.005993 539.952897,562.600003 C541.036003,562.184029 542.028706,561.549752 542.957083,560.880867 C544.841306,559.523129 546.642428,557.894842 547.976578,556.022628 C549.237015,554.256904 547.963713,548.75374 547.963713,548.75374 C547.87018,548.347417 547.567328,548.278199 547.291944,548.600329 C547.291944,548.600329 541.37919,555.502495 539.788779,554.815639 C539.079805,554.509816 537.823193,552.801662 538.413251,552.291845 C539.519654,551.337102 540.525918,550.274206 541.468203,549.17171 C543.462301,546.840261 546.030116,543.828613 546.046458,540.689177 C546.059323,538.471538 545.129555,534.558059 542.939003,533.288175 C540.972373,532.149073 537.481745,534.789673 535.948358,535.825614 C534.802316,536.600323 533.741811,537.483518 532.780054,538.460557 C532.146184,539.104817 531.486932,539.901156 531.486932,539.901156 C531.217459,540.226947 530.959113,540.832272 530.912868,541.245916 C530.912868,541.245916 530.813424,542.13976 530.772743,542.966383 C530.705287,544.366716 530.765093,545.767382 530.951812,547.157732 C531.07177,548.058565 531.240408,548.95374 531.438601,549.842592 C531.659047,550.829614 531.30995,551.273208 530.620795,552.021295 C528.975446,553.806321 524.919447,555.689184 524.919447,555.689184 C524.528277,555.869883 524.410056,555.73777 524.65519,555.395007 C524.65519,555.395007 527.84679,550.947085 528.339838,550.225953 C529.038729,549.204322 528.672941,547.756734 528.488657,546.593339 C527.913298,542.976658 524.02459,537.274586 522.20761,534.767141 L522.208675,520.858456 L567.175771,520.858456 Z M539.137754,539.905795 C539.478192,539.803543 539.675972,539.997463 539.583512,540.369668 C539.583512,540.369668 538.17023,546.080766 535.666799,547.893939 C535.362188,546.315205 535.00578,544.4125 535.487394,542.842056 C535.983758,541.225852 539.049758,539.937597 539.049758,539.937597 Z" id="Square-20" stroke="none" fill="#181818" fill-rule="evenodd"></path>
+                        <polygon id="Square-18" stroke="#000000" stroke-width="2.025" fill="none" transform="translate(544.102830, 544.102830) rotate(-3.236000) translate(-544.102830, -544.102830) " points="514.40283 514.40283 573.80283 514.40283 573.80283 573.80283 514.40283 573.80283"></polygon>
+                        <polygon id="Square-17" stroke="#000000" stroke-width="2.025" fill="none" transform="translate(544.354613, 544.354613) rotate(-5.000000) translate(-544.354613, -544.354613) " points="507.904613 507.904613 580.804613 507.904613 580.804613 580.804613 507.904613 580.804613"></polygon>
+                        <polygon id="Square-16" stroke="#000000" stroke-width="2.025" fill="none" transform="translate(544.354613, 544.354613) rotate(-8.090000) translate(-544.354613, -544.354613) " points="500.54439 500.54439 588.164836 500.54439 588.164836 588.164836 500.54439 588.164836"></polygon>
+                        <polygon id="Square-15" stroke="#000000" stroke-width="2.025" fill="none" transform="translate(544.354613, 544.354613) rotate(-12.944000) translate(-544.354613, -544.354613) " points="493.494469 493.494469 595.214757 493.494469 595.214757 595.214757 493.494469 595.214757"></polygon>
+                        <polygon id="Square-14" stroke="#000000" stroke-width="2.01426314" fill="none" transform="translate(544.354613, 544.354613) rotate(-21.034000) translate(-544.354613, -544.354613) " points="485.437416 485.437416 603.27181 485.437416 603.27181 603.27181 485.437416 603.27181"></polygon>
+                        <polygon id="Square-13" stroke="#000000" stroke-width="2.025" fill="none" transform="translate(544.102830, 544.102830) rotate(-33.978000) translate(-544.102830, -544.102830) " points="475.869666 475.869666 612.335994 475.869666 612.335994 612.335994 475.869666 612.335994"></polygon>
+                        <polygon id="Square-12" stroke="#000000" stroke-width="2.025" fill="none" transform="translate(543.851047, 543.851047) rotate(-55.012000) translate(-543.851047, -543.851047) " points="464.791219 464.791219 622.910876 464.791219 622.910876 622.910876 464.791219 622.910876"></polygon>
+                        <polygon id="Square-11" stroke="#000000" stroke-width="2.33654524" fill="none" transform="translate(543.851047, 543.851047) rotate(-88.990000) translate(-543.851047, -543.851047) " points="452.202075 452.202075 635.50002 452.202075 635.50002 635.50002 452.202075 635.50002"></polygon>
+                        <polygon id="Square-10" stroke="#000000" stroke-width="2.7" fill="none" transform="translate(543.851047, 543.851047) rotate(-144.002000) translate(-543.851047, -543.851047) " points="437.598667 437.598667 650.103428 437.598667 650.103428 650.103428 437.598667 650.103428"></polygon>
+                        <polygon id="Square-9" stroke="#000000" stroke-width="4.05" fill="none" transform="translate(543.851047, 543.851047) rotate(-232.992000) translate(-543.851047, -543.851047) " points="420.47743 420.47743 667.224665 420.47743 667.224665 667.224665 420.47743 667.224665"></polygon>
+                        <polygon id="Square-8" stroke="#000000" stroke-width="3.64710412" fill="none" transform="translate(543.851047, 543.851047) rotate(-205.486000) translate(-543.851047, -543.851047) " points="400.838365 400.838365 686.86373 400.838365 686.86373 686.86373 400.838365 686.86373"></polygon>
+                        <polygon id="Square-7" stroke="#000000" stroke-width="4.23064078" fill="none" transform="translate(544.102830, 544.102830) rotate(-250.790000) translate(-544.102830, -544.102830) " points="378.177904 378.177904 710.027756 378.177904 710.027756 710.027756 378.177904 710.027756"></polygon>
+                        <polygon id="Square-6" stroke="#000000" stroke-width="4.9075433" fill="none" transform="translate(543.851047, 543.851047) rotate(-176.362000) translate(-543.851047, -543.851047) " points="351.488918 351.488918 736.213177 351.488918 736.213177 736.213177 351.488918 736.213177"></polygon>
+                        <polygon id="Square-5" stroke="#000000" stroke-width="6.39692308" fill="none" transform="translate(543.851047, 543.851047) rotate(-284.768000) translate(-543.851047, -543.851047) " points="320.771405 320.771405 766.93069 320.771405 766.93069 766.93069 320.771405 766.93069"></polygon>
+                        <polygon id="Square-4" stroke="#000000" stroke-width="6.60359027" fill="none" transform="translate(543.851047, 543.851047) rotate(121.350000) translate(-543.851047, -543.851047) " points="285.018234 285.018234 802.683861 285.018234 802.683861 802.683861 285.018234 802.683861"></polygon>
+                        <polygon id="Square-3" stroke="#000000" stroke-width="7.66016471" fill="none" transform="translate(543.851047, 522.200208) rotate(195.778000) translate(-543.851047, -522.200208) " points="243.72584 222.075 843.976255 222.075 843.976255 822.325415 243.72584 822.325415"></polygon>
+                        <polygon id="Square-2" stroke="#000000" stroke-width="8.88579107" fill="none" transform="translate(544.102830, 544.102830) rotate(317.128000) translate(-544.102830, -544.102830) " points="195.88709 195.88709 892.31857 195.88709 892.31857 892.31857 195.88709 892.31857"></polygon>
+                        <polygon id="Square-1" stroke="#000000" stroke-width="10.3075176" fill="none" transform="translate(543.851047, 543.851047) rotate(512.906000) translate(-543.851047, -543.851047) " points="139.991288 139.991288 947.710807 139.991288 947.710807 947.710807 139.991288 947.710807"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

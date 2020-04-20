@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+<title>Estúdio Crise</title>
+<link>https://crise.cc</link>
+
+<item>
+    <title>Quote 1</title>
+    <link>https://crise.cc</link>
+    <description>
+	I don’t think of myself as an artist. I know some consider themselves such, but I can’t. This is not to say that I don’t hope that our work has artistic merit. Anyway, I never know how someone could proclaim himself or herself to be an ‘artist’; I think it should be a designation best left for others to bestow, much like ‘genius’ and ‘asshole’.
+	</description></item>
+	
+<item>
+    <title>Quote 2</title>
+    <link>https://crise.cc</link>
+    <description>Lorem Ipsum
+	</description></item>
+	
+<item>
+    <title>Quote 3</title>
+    <link>https://crise.cc</link>
+    <description>
+	Hello world.
+	</description></item>
+  
+</channel>
+
+</rss>
