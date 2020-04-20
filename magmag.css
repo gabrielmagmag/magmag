@@ -12,14 +12,18 @@ font-family: 'Bungee Outline', cursive;
 */
 
 body{
-  background: #D6D6D6 url('img/mancha.svg') no-repeat center 28em;
+  background: #D6D6D6 url('img/mancha.svg') no-repeat center 10em;
   display: grid;
-  border: 42px solid white;
-  padding: 0;
+  padding: 20em 0;
   margin: auto;
-  align-content: center;
   text-align: center;
-  height: 130vh;
+  min-height: 1200px;
+  height: auto;
 }
 
+img
+{
+  width: 100%;
+  max-width: 180px;
+}
 
