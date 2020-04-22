@@ -1,29 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline|Bungee+Inline|Bungee+Outline|Bungee+Shade&display=swap');
-@font-face {
-font-family: 'JetMono';
-src: url('fonts/JetBrainsMono-Bold.woff');
-}
-/*
-font-family: 'Bungee', cursive;
-font-family: 'Bungee Inline', cursive;
-font-family: 'Bungee Shade', cursive;
-font-family: 'Bungee Hairline', cursive;
-font-family: 'Bungee Outline', cursive;
-*/
-
 body{
-  background: #D6D6D6 url('img/mancha.svg') no-repeat center 10em;
+  background-color: #F5F5F5;
   display: grid;
-  padding: 20em 0;
+  padding: 8em 2em;
   margin: auto;
-  text-align: center;
-  min-height: 1200px;
-  height: auto;
 }
 
 img
 {
   width: 100%;
-  max-width: 180px;
 }
 
