@@ -21,10 +21,11 @@ span
   max-width: 375px;
   text-transform: uppercase;
   margin: auto;
-  margin-bottom: 2em;
+  margin-top: 2em;
   line-height: 1.4em;
   font-size: smaller;
   letter-spacing: 0.1em;
+  color: #fff;
 }
 
 h1, p{
