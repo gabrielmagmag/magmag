@@ -44,8 +44,8 @@ span
 
 i::selection
 {
-  color: #E02020;
-  background-color: #260000;
+  color: #000;
+  background-color: #F79E9E;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -59,7 +59,7 @@ i::selection
   }
 i::selection
   {
-    color: #260000;
-    background-color: #E02020;
+    color: #F79E9E;
+    background-color: #F79E9E;
   }
 }
