@@ -6,7 +6,6 @@ body{
   font-size: 1.35em;
   display: grid;
   grid-template-rows: 0.8fr 1fr auto 0.7fr;
-  gap: 44px;
   max-width: 375px;
   background: url('magnet.png') no-repeat center 7em;
   background-color: #E02020;
