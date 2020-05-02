@@ -10,7 +10,7 @@ body{
 
 #light
 {
-  background-color: yellow;
+  fill: #fff;
 }
 
 
@@ -50,5 +50,9 @@ h1
   body{
   background-color: #260000;
   color: #E02020;
+  }
+  #light
+  {
+    fill: #E02020;
   }
 }
