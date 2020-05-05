@@ -7,40 +7,35 @@ body{
   margin: auto;
 
   display: grid;
-  grid-template-rows: 62vh 70vh  auto auto;
+  grid-template-rows: 62vh 70vh  80vh;
   grid-template-columns: 1fr;
-}
-
-section
-{
-  background-color: #fff;
-  padding-left: 50%;
-  padding-top: 8em;
+  font-family: sans-serif;
 }
 
 .intro
 {
-  padding-left:0;
   display: grid;
+  grid-template-areas: 
+    'svg svg'
+    'title marquee';
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr; 
-  gap:10px;
-  
   border: 5px solid white;
   box-sizing: border-box;
   background-color: #E02020;
 }
+
 .editorial
 {
-  background: #FFFFFF url('magnet-ball.png') repeat-x center bottom;
+  background: #FFFFFF url('magnet-ball.png') repeat-x center 48vh;
+  padding-top: 60vh;
 }
-.sumario
-{
-}
+
 h1
 {
   font-size: 14px;
   text-transform: uppercase;
+  margin: auto;
 }
 
 h2
@@ -55,29 +50,27 @@ p{
   margin: auto;
   line-height: 1.3em;
 }
+
 span
 {
   width: 100%;
   text-transform: uppercase;
-  margin-top: 4em;
   line-height: 1.7em;
-  font-size: 1em;
-  letter-spacing: 0.15em;
+  font-size: 0.8em;
+  letter-spacing: 0.16em;
   color: #fff;
 }
 
 svg
 {
-  margin: auto;
+  grid-area: svg;
   max-width: 100%;
+  max-height: 100%;
+  justify-self: end;
 }
 
-
-
-
-
-
-/********* GRACINHA ********/
+/*
+/********* GRACINHAS ********/
 
 #light
 {
@@ -86,14 +79,35 @@ svg
 
 i::selection
 {
-  color: #000;
-  background-color: #F79E9E;
 }
 
+.marquee {
+  overflow: hidden;
+  box-sizing: border-box;
+}
 
-/********* DARK MODE ********
+.marquee span {
+  display: inline-block;
+  will-change: transform;
+/*  padding-left: 100%;*/
+  animation: marquee 8s linear infinite;
+}
 
+.marquee span:hover {
+  animation-play-state: paused
+}
 
+/*
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}*/
+
+/*
 @media (prefers-color-scheme: dark) {
   body{
   background-color: #1a0000;
@@ -109,3 +123,4 @@ i::selection
     background-color: #F79E9E;
   }
 }
+*/
