@@ -7,7 +7,7 @@ body{
   padding: 0;
 /****************************** GRID */
   display: grid;
-  grid-template-rows: minmax(10vh,36vh) 1fr auto;
+  grid-template-rows: minmax(390px,36vh) 1fr auto;
   grid-template-columns: 1fr;
   grid-template-areas:
   'intro'
