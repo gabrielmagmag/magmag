@@ -23,7 +23,7 @@ body{
 .intro
 {
   background-color: #E02020;
-  border: 5px solid white;
+  border: 8px solid white;
   padding: 1em;
   grid-area: intro;
   overflow: hidden;
@@ -164,7 +164,7 @@ marquee{
 footer
 {
   background-color:#131415;
-  border: 5px solid white;
+  border: 8px solid white;
   grid-area: rodape;
   display:grid;
   grid-template-columns: 1fr 1fr;
@@ -205,7 +205,7 @@ i::selection
 
 
 
-/****************************** DARK MODE ***
+/****************************** DARK MODE ***/
 
 
 @media (prefers-color-scheme: dark){
@@ -217,10 +217,19 @@ i::selection
     fill: #E02020;
   }
   .intro, footer{
-    border: 5px solid hsl(0,56%,4%);
+    border: 8px solid hsl(0,56%,4%);
   }
   .intro{
-    background-color:hsl(0,56%,12%)
+    background-color:hsl(0,65%,10%)
+  }
+  .editorial
+  {
+    background: no-repeat left bottom;
+  }
+  footer
+  {
+    background-color:hsl(0,56%,4%);
+    opacity: 0.5;
   }
 }
 
