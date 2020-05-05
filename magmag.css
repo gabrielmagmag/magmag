@@ -9,7 +9,6 @@ body{
   display: grid;
   grid-template-rows: 62vh 70vh  auto auto;
   grid-template-columns: 1fr;
-  max-width: 375px;
 }
 
 section
@@ -70,10 +69,6 @@ span
 svg
 {
   margin: auto;
-  margin-bottom: 2em;
-  position: relative;
-  right: -50px;
-  transform: scale(0.9,0.9);
 }
 
 
