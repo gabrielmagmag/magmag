@@ -88,13 +88,13 @@ h1
   animation: marquee 4s linear infinite;
 }
 
-/* RESOLVER PROBLEMA DO HOVER NO SPAN COM 2 LINHAS 
+ RESOLVER PROBLEMA DO HOVER NO SPAN COM 2 LINHAS 
 .marquee span:hover {animation-play-state: paused}
 @keyframes
 marquee{
   100% {transform: translate(-100%, 0);}
 }
-*/
+
 
 
 /********************************** EDITORIAL */
