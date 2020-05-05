@@ -14,7 +14,7 @@ body{
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
   'intro intro'
-  '. editorial'
+  'editorial editorial'
   'rodape rodape'
   ;
 }
@@ -102,31 +102,83 @@ marquee{
 
 .editorial
 {
-  padding: 5px;
-  padding-top: 88vh;
+  padding: 92vh 5px 8vh 50vw;
   grid-area: editorial;
+  background: url('whiteboard.jpg') no-repeat left bottom;
 }
 
-h2
+.editorial h2
 {
   text-transform: uppercase;
-  letter-spacing: 0.35em;
+  letter-spacing: 0.1em;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-top: 6em;
+}
+
+.editorial p
+{
+  color: #ccc;
+  line-height: 1.4em;
+}
+
+.editorial ul
+{
+  list-style: none;
+  padding: 0;
+  color: #767676;
+  font-size: 0.95em;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.editorial li
+{
+  line-height: 4em;
+}
+
+.editorial a
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.editorial a span
+{
+  width: 140px;
 }
 
 
 footer
 {
-  background-color:#333;
+  background-color:#131415;
   border: 5px solid white;
   grid-area: rodape;
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: '. roda';
+  height: 390px;
+  padding-right: 1em;
 }
 
 footer > ul
 {
-   grid-area: roda;
+  grid-area: roda;
+  list-style: none;
+  padding: 0;
+  color: #777777;
+  font-size: 0.75em;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin: auto;
+}
+footer li
+{
+  line-height: 1.5em;
 }
 
 
