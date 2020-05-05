@@ -1,12 +1,15 @@
-
+* {
+  box-sizing: border-box;
+}
 body{
   background: #FFF url('magnet-ball.png') repeat-x left 120vh;
   font-size: 1em;
-  font-family: sans-serif;
+  font-family: Andale Mono, monospace;
   margin: auto;
   padding: 0;
 /****************************** GRID */
   display: grid;
+  /* PRECISO PENSAR NA RESPOSIVIDADE DO INTRO VERMELHO */
   grid-template-rows: 390px 1fr auto;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -15,21 +18,8 @@ body{
   'rodape rodape'
   ;
 }
- 
-h1
-{
-  font-size: 14px;
-  text-transform: uppercase;
-  margin: auto;
-}
 
-h2
-{
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-/****************************************************** INTRO MAGMAG */
+/************************************ INTRO MAGMAG */
 
 .intro
 {
@@ -37,57 +27,77 @@ h2
   border: 5px solid white;
   padding: 1em;
   grid-area: intro;
+  overflow: hidden;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 60px;
+  grid-template-columns: minmax(min-content,max-content) 1fr minmax(min-content,max-content);
+  grid-template-rows: 1fr min-content;
   grid-template-areas:
-  'svg svg'
-  'title marquee';
+  '. . svg'
+  'title . marquee';
 }
 
 svg
 {
   grid-area: svg;
-  width: 180px;
-  max-width: 100%;
-  max-height: 100%;
-  justify-self: end;
-  transform: translate(0,5em);
+  width: 100%;
+  max-width: 180px;
+  margin: auto;
+  z-index: 1;
+}
+
+img
+{
+  grid-area: svg;
+  margin: auto;
+  transform: translate(-4.4em,-1.5em);
+}
+ 
+h1
+{
+  grid-area: title;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  padding-left: 0.7em;
 }
 
 
-/****************************************************** MARQUEE */
+/********************************** MARQUEE */
 
 
 .marquee {
-  overflow: hidden;
-  box-sizing: border-box;
+  grid-area: marquee;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0.7em;
+  text-align: center;
   margin: auto;
-  width: 100%;
-  height: 54px;
+  -webkit-mask-image: linear-gradient(270deg, transparent 0%, rgba(0, 0, 0, 1.0) 8%, rgba(0, 0, 0, 1.0) 92%, transparent 100%);*/
 }
+
 .marquee span
 {
-  text-transform: uppercase;
-  color: #fff;
-  line-height: 1.7em;
   font-size: 0.8em;
+  text-transform: uppercase;
+  color: hsl(0,0%,100%);
+  line-height: 1.55em;
   letter-spacing: 0.16em;
-
-  display: inline-block;
   will-change: transform;
-  padding-left: 100%;
-  animation: marquee 8s linear infinite;
+  animation: marquee 4s linear infinite;
 }
 
-@keyframes marquee{
-0% {transform: translate(0, 0);}
-100% {transform: translate(-100%, 0);}
-}
-
+/* RESOLVER PROBLEMA DO HOVER NO SPAN COM 2 LINHAS 
 .marquee span:hover {animation-play-state: paused}
+@keyframes
+marquee{
+  100% {transform: translate(-100%, 0);}
+}
+*/
 
+
+/********************************** EDITORIAL */
 
 
 .editorial
@@ -96,6 +106,13 @@ svg
   padding-top: 88vh;
   grid-area: editorial;
 }
+
+h2
+{
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+}
+
 
 footer
 {
@@ -127,27 +144,23 @@ i::selection
 
 
 
-/****************************************** DARK MODE*/
+/****************************** DARK MODE ***
 
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark){
   body{
   background-color: hsl(0,56%,4%);
   color: hsl(0,0%,100%);
   }
-  
-  #light
-  {
+  #light{
     fill: #E02020;
-    
   }
-  .intro, footer
-  {
+  .intro, footer{
     border: 5px solid hsl(0,56%,4%);
   }
-  
-  .intro
-  {background-color:hsl(0,56%,12%)}
+  .intro{
+    background-color:hsl(0,56%,12%)
+  }
 }
 
 
