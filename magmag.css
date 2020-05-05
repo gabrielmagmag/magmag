@@ -90,7 +90,7 @@ svg
 
 .editorial
 {
-  background: #FFFFFF url('magnet-ball.png') repeat-x left 72vh;
+  background: url('magnet-ball.png') repeat-x left 72vh;
   padding: 5px;
   padding-top: 88vh;
 }
@@ -98,27 +98,8 @@ svg
 footer
 {
   background-color:#333;
-  color:#FFF;
   border: 5px solid white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -136,24 +117,42 @@ i::selection
 
 
 
-
-
-/***************************************************** DARK MODE *
+/****************************************** DARK MODE*/
 
 
 @media (prefers-color-scheme: dark) {
   body{
-  background-color: #1a0000;
-  color: #E02020;
+  background-color: hsl(0,56%,4%);
+  color: hsl(0,0%,100%);
   }
+  
   #light
   {
     fill: #E02020;
+    
   }
-i::selection
+  .intro, footer
   {
-    color: #F79E9E;
-    background-color: #F79E9E;
+    border: 5px solid hsl(0,56%,4%);
   }
+  
+  .intro
+  {background-color:hsl(0,56%,12%)}
 }
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
