@@ -83,7 +83,7 @@ h1
   line-height: 1.55em;
   letter-spacing: 0.16em;
   will-change: transform;
-  animation: marquee 4s linear infinite;
+  animation: marquee 6.7s linear infinite;
 }
 
 .marquee span:hover {animation-play-state: paused}
