@@ -9,7 +9,6 @@ body{
   padding: 0;
 /****************************** GRID */
   display: grid;
-  /* PRECISO PENSAR NA RESPOSIVIDADE DO INTRO VERMELHO */
   grid-template-rows: 390px 1fr auto;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -115,6 +114,8 @@ marquee{
   font-weight: bold;
   line-height: 1.6em;
   margin-top: 6em;
+  margin-bottom: 4.4em;
+  width: 24ch;
 }
 
 .editorial p
@@ -137,20 +138,30 @@ marquee{
 
 .editorial li
 {
-  line-height: 4em;
-}
-
-.editorial a
-{
   display: flex;
   flex-direction: row;
+  height: 80px;
+  width: 100%;
+  
 }
-
-.editorial a span
+.editorial a
 {
-  width: 140px;
+  width: 34ch;
+  height: 40px;
+  margin: auto;
 }
 
+.editorial a:hover
+{
+  color: #000;
+  transform: scale(2,2);
+}
+
+
+.editorial img
+{
+  transform: translate(-2em,-0.5em);
+}
 
 footer
 {
