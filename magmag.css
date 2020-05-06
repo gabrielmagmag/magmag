@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 body{
-  background: #FFF url('magnet-ball.png') repeat-x left 120vh;
   font-size: 1em;
   font-family: Andale Mono, monospace;
   margin: auto;
@@ -100,7 +99,7 @@ marquee{
 
 .editorial
 {
-  padding: 92vh 5px 8vh 50vw;
+  padding: 8vh 5px 8vh 50vw;
   grid-area: editorial;
   background: url('whiteboard.jpg') no-repeat left bottom;
 }
@@ -138,7 +137,7 @@ marquee{
 {
   display: flex;
   flex-direction: row;
-  height: 80px;
+  height: 40px;
   width: 100%;
   
 }
