@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>favicon-svg</title>
+    <g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M62,0 C63.1045695,-2.02906125e-16 64,0.8954305 64,2 L64,62 C64,63.1045695 63.1045695,64 62,64 L2,64 C0.8954305,64 1.3527075e-16,63.1045695 0,62 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L62,0 Z M33,18 C24.7157288,18 18,24.7157288 18,33 C18,41.2842712 24.7157288,48 33,48 C41.2842712,48 48,41.2842712 48,33 C48,24.7157288 41.2842712,18 33,18 Z" id="MagMag" fill="#808080"></path>
+    </g>
+</svg>
