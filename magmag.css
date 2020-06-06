@@ -30,6 +30,7 @@ nav
 {
   grid-area: nav;
   margin: auto;
+  border-top: 9px solid black;
 }
 
 ul
