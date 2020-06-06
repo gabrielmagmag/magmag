@@ -26,15 +26,12 @@ img{
   max-height: 80vh;
   margin: auto;
 }
-nav
-{
+nav{
   grid-area: nav;
   margin: auto;
   border-top: 9px solid black;
 }
-
-ul
-{
+ul{
   display: flex;
   flex-direction: row;
   padding: 0;
@@ -42,9 +39,7 @@ ul
   list-style: none;
   text-align: center;
 }
-
-li
-{
+li{
   margin: auto 1em;
 }
 
@@ -52,7 +47,6 @@ h1{
     grid-area: logo;
   margin: auto;
 }
-
 div{
   grid-area: player;
   background-color: #111;
@@ -61,10 +55,6 @@ div{
   width: 140px;
   margin: auto;
 }
-
-
-
-
 @media(prefers-color-scheme:dark) {
   body{
     color: #ccc;
