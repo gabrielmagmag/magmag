@@ -48,7 +48,7 @@ nav ul{
   max-height: 80vh;
   margin: auto;
 }
-
+/*
 @media(prefers-color-scheme:dark) {
   body{
     color: #ccc;
@@ -57,3 +57,4 @@ nav ul{
   .magneticMagazine{
   mix-blend-mode: multiply;
 }
+*/
