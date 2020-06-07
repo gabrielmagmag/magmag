@@ -4,20 +4,42 @@
   box-sizing:border-box;
 }
 body{
-  min-height: 100vh;
-  margin: auto auto 20vhl ;
+  margin: auto auto 20vh;
   padding: 2em;
-  color: #333;
-  background-color: #f2f2f2;
+  background-color: #FFFFFF;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 10vh 10vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr minmax(8vh,22vh) minmax(10vh,22vh) auto;
   grid-template-areas: 
-    'cover cover cover cover cover cover'
-    'logo logo magmag magmag player player'    
-    'nav nav nav nav nav nav'
+    ' cover cover cover cover cover '
+    ' ... logo edicao player ... ' 
+    ' ... nav nav nav ...'
+    ' footer footer footer footer footer '
 }
-img{
+h1{
+  grid-area: logo;
+  margin: auto;
+   max-width: 100%;
+}
+nav{
+  grid-area: nav;
+  margin: auto;
+}
+nav ul{
+  padding: 0;
+  margin: auto;
+}
+.edicao2020{
+  grid-area: edicao;
+  margin: auto;
+  max-width: 100%;
+}
+.audioPlayer{
+  grid-area: player;
+  margin: auto;
+  max-width: 100%;
+}
+.magneticMagazine{
   grid-area: cover;
   mix-blend-mode: multiply;
   width: auto;
@@ -26,38 +48,12 @@ img{
   max-height: 80vh;
   margin: auto;
 }
-nav{
-  grid-area: nav;
-  margin: auto;
-  border-top: 9px solid black;
-}
-ul{
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin: auto;
-  list-style: none;
-  text-align: center;
-}
-li{
-  margin: auto 1em;
-}
 
-h1{
-    grid-area: logo;
-  margin: auto;
-}
-div{
-  grid-area: player;
-  background-color: #111;
-  border-radius: 1000px;
-  height: 44px;
-  width: 140px;
-  margin: auto;
-}
 @media(prefers-color-scheme:dark) {
   body{
     color: #ccc;
     background-color: #111;
   }
+  .magneticMagazine{
+  mix-blend-mode: multiply;
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="52px" viewBox="0 0 56 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Audio Player</title>
+    <defs>
+        <path d="M282,0 C294.150264,-2.23196738e-15 304,9.8497355 304,22 C304,34.1502645 294.150264,44 282,44 L278,44 C265.849736,44 256,34.1502645 256,22 C256,9.8497355 265.849736,2.23196738e-15 278,0 L282,0 Z M274.424415,11.4975343 L273.561717,12.0032538 L287.275844,34.4890134 L288.138542,33.9832939 L274.424415,11.4975343 Z M274.746,17.6145343 L272,17.6151436 L272,26.0040254 L276.884695,26.0040254 L282.729013,31.5 L283.364,31.4995343 L274.746,17.6145343 Z M285,12.5 L282.729013,12.5 L278.957,15.8005343 L285,25.6275343 L285,12.5 Z" id="path-1"></path>
+        <filter x="-14.6%" y="-11.4%" width="129.2%" height="131.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Landscape" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="375-light" transform="translate(-274.000000, -352.000000)">
+            <g id="Header-+-Player" transform="translate(22.000000, 354.000000)">
+                <g id="Audio-Player">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
