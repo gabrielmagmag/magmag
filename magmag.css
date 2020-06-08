@@ -9,7 +9,7 @@ body{
   background-color: #FFFFFF;
   display: grid;
   grid-template-columns: 4vw 2fr 2fr 2fr 4vw;
-  grid-template-rows: auto 20em auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-template-areas: 
     ' cover cover cover cover cover '
     ' ... logo edicao player ... ' 
