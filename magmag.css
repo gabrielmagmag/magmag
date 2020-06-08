@@ -9,7 +9,7 @@ body{
   background-color: #FFFFFF;
   display: grid;
   grid-template-columns: 4vw 2fr 2fr 2fr 4vw;
-  grid-template-rows: auto minmax(8vh,22vh) minmax(10vh,22vh) 4em;
+  grid-template-rows: auto 20em minmax(10vh,22vh) auto;
   grid-template-areas: 
     ' cover cover cover cover cover '
     ' ... logo edicao player ... ' 
@@ -32,13 +32,22 @@ nav{
   margin: auto;
 }
 nav ul{
-  padding: 0;
   margin: auto;
+  width: min-content;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+nav ul span{
+ opacity: 0.25; 
+}
+nav li
+{
+  margin-bottom: 2em;
 }
 .edicao2020{
   grid-area: edicao;
   margin: auto;
-  max-width: 100%;
 }
 .audioPlayer{
   grid-area: player;
