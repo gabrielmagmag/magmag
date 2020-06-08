@@ -4,12 +4,12 @@
   box-sizing:border-box;
 }
 body{
-  margin: auto auto 20vh;
-  padding: 2em;
+  margin: auto;
+  padding: 0;
   background-color: #FFFFFF;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto minmax(8vh,22vh) minmax(10vh,22vh) auto;
+  grid-template-rows: auto minmax(8vh,22vh) minmax(10vh,22vh) 4em;
   grid-template-areas: 
     ' cover cover cover cover cover '
     ' ... logo edicao player ... ' 
@@ -19,7 +19,7 @@ body{
 h1{
   grid-area: logo;
   margin: auto;
-   max-width: 100%;
+  max-width: 100%;
 }
 nav{
   grid-area: nav;
