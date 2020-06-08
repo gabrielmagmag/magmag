@@ -43,6 +43,8 @@ nav ul{
   list-style: none;
   text-align: center;
   font-weight: bold;
+
+  
 }
 nav ul span{
  opacity: 0.25; 
@@ -78,26 +80,33 @@ nav li
   height: auto;
   max-width: 100%;
   margin: auto;
-  transform: scale(1.2) translateY(-10px);
+  transform: scale(1) translateY(-10px);
 }
 
 
 @media screen and (orientation: landscape) {
   body{
     grid-template-rows: 60vh auto auto auto;
+    max-width: 100%;
   }
   #magMagLogo {
     width: 200px;
-    transform: scale(1.6) translateX(110px) translateY(-10px);
+    transform: scale(1.6) translateX(300px) translateY(-10px);
   }
   .magneticMagazine{
-    transform: scale(1.2) translateX(-16vw);
+    transform: scale(0.4) translateX(-44vw) translateY(-120vh);
   }
   .audioPlayer{
-    transform: scale(1) translatex(-4vw) translateY(-10vh);
+    transform: scale(1) translatex(-21vw) translateY(-14vh);
   }
   .edicao2020{
-    transform: scale(1) translateX(2vw) translateY(8vh);}
+    transform: scale(1.1) translateX(-8vw) translateY(5vh);
+    opacity: 0.4;
+  }
+  nav ul
+  {
+      display:flex;
+  }
 }
 
 /*
