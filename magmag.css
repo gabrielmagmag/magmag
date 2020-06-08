@@ -59,17 +59,17 @@ nav li
 {
   width: 100%;
   height: auto;
-  transform: scale(4.5) translateX(28px) translateY(-10px);
+  transform: scale(3.5) translateX(38px) translateY(-18px);
 }
 .edicao2020{
   grid-area: edicao;
   margin: auto;
-  transform: translateX(-74px) translateY(25px);
+  transform: scale(1) translateX(-54px) translateY(24px);
 }
 .audioPlayer{
   grid-area: player;
   margin: auto;
-  transform: translateY(-120px);
+  transform: translateY(-140px);
 }
 .magneticMagazine{
   grid-area: cover;
@@ -78,7 +78,7 @@ nav li
   height: auto;
   max-width: 100%;
   margin: auto;
-  transform: scale(1.5) translateY(-20px);
+  transform: scale(1.2) translateY(-10px);
 }
 
 
