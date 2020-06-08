@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('fonts/JetBrainsMono-Regular.woff') format('woff')
+}
+
 *,
 *::before,
 *::after {
@@ -5,6 +10,7 @@
 }
 body{
   margin: auto;
+  font-family: JetBrainsMono, sans-serif;
   padding: 0;
   background-color: #FFFFFF;
   display: grid;
@@ -24,9 +30,10 @@ h1{
 
 #magMagLogo
 {
-  width: 100%;
+  width: auto;
+  max-width: 80%;
   height: auto;
-  transform: scale(4) translateX(40px) translateY(-10px);
+  transform: scale(3) translateX(54px) translateY(-30px);
 }
 nav{
   grid-area: nav;
@@ -41,6 +48,9 @@ nav ul{
 }
 nav ul span{
  opacity: 0.25; 
+  display: block;
+  font-size: 0.9em;
+  margin-top: 0.6em;
 }
 nav li
 {
@@ -49,7 +59,7 @@ nav li
 .edicao2020{
   grid-area: edicao;
   margin: auto;
-  transform: translateX(-54px) translateY(10px);
+  transform: translateX(-94px) translateY(10px);
 }
 .audioPlayer{
   grid-area: player;
