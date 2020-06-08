@@ -26,13 +26,14 @@ h1{
 {
   width: 100%;
   height: auto;
+  transform: scale(4) translateX(40px) translateY(-10px);
 }
 nav{
   grid-area: nav;
   margin: auto;
 }
 nav ul{
-  margin: auto;
+  margin: 4em auto auto;
   width: min-content;
   padding: 0;
   list-style: none;
@@ -48,11 +49,13 @@ nav li
 .edicao2020{
   grid-area: edicao;
   margin: auto;
+  transform: translateX(-54px) translateY(10px);
 }
 .audioPlayer{
   grid-area: player;
   margin: auto;
   max-width: 100%;
+  transform: translateY(-120px);
 }
 .magneticMagazine{
   grid-area: cover;
