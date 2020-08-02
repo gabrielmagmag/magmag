@@ -1,133 +1,41 @@
-@font-face {
-  font-family: 'JetBrainsMono';
-  src:  url('fonts/JetBrainsMono-Regular.woff') format('woff'),
-        url('fonts/JetBrainsMono-Bold.woff') format('woff')
-}
-
 *,
 *::before,
 *::after {
   box-sizing:border-box;
 }
 
-
 body{
   margin: auto;
-  font-family: JetBrainsMono, sans-serif;
   padding: 0;
   background-color: #FFFFFF;
+ 
+}
+
+nav
+{
   display: grid;
-  max-width: 375px;
-  grid-template-columns: 4vw 2fr 2fr 2fr 4vw;
-  grid-template-rows: minmax(80vh,auto) auto auto auto;
-  grid-template-areas: 
-    ' cover cover cover cover cover '
-    ' ... logo edicao player ... ' 
-    ' ... nav nav nav ...'
-    ' footer footer footer footer footer '
-}
-h1{
-  grid-area: logo;
-  margin: auto;
-  max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  '
+  . . .
+  . mm01 .
+  . . .
+  '
 }
 
-nav{
-  grid-area: nav;
-  margin: auto;
-}
-nav ul{
-  margin: 4em auto auto;
-  width: min-content;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  font-weight: bold;
-
-  
-}
-nav ul span{
- opacity: 0.25; 
-  display: block;
-  font-size: 0.9em;
-  margin-top: 0.6em;
-}
-nav li
+.mm01
 {
-  margin-bottom: 2em;
-}
-
-#magMagLogo
-{
-  width: 100%;
-  height: auto;
-  transform: scale(3.5) translateX(38px) translateY(-18px);
-}
-.edicao2020{
-  grid-area: edicao;
+  grid-area: mm01;
+  outline: 1px solid green;
   margin: auto;
-  transform: scale(1) translateX(-54px) translateY(24px);
-}
-.audioPlayer{
-  grid-area: player;
-  margin: auto;
-  transform: translateY(-140px);
-}
-.magneticMagazine{
-  grid-area: cover;
-  mix-blend-mode: multiply;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  margin: auto;
-  transform: scale(1) translateY(-10px);
 }
 
-
-@media screen and (orientation: landscape) {
-  body{
-    max-width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 600px auto auto auto;
-    grid-template-areas: 
-    ' ... cover cover cover ... '
-    ' ... logo edicao player ... ' 
-    ' ... nav nav nav ...'
-    ' footer footer footer footer footer ';
-  }
-  #magMagLogo {
-    width: 200px;
-    transform: scale(1.6) translateX(228px) translateY(-30px);
-  }
-  .magneticMagazine{
-    transform: scale(0.85) translateX(-200px) translateY(-140px);
-    max-width: 760px;
-  }
-  .edicao2020
-  {
-    opacity: 0.3;
-    transform: translateX(200px) translateY(30px);
-  }
-  .audioPlayer
-  {
-    opacity: 0.3;
-    transform: translateX(-100px) translateY(-130px);
-  }
-
-  
-  nav ul
-  {
-      display:flex;
-  }
-}
-
-/*
+/* Dark Mode */
 @media(prefers-color-scheme:dark) {
   body{
     color: #ccc;
     background-color: #111;
   }
-  .magneticMagazine{
-  mix-blend-mode: multiply;
 }
 */
