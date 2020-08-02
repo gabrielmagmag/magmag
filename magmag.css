@@ -12,8 +12,8 @@ body{
 }
 body>ul{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1.48fr 1fr 1fr 1fr;
-  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, minmax(180px,auto));
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   list-style: none;
   grid-gap: 1px;
   margin: auto;
@@ -29,7 +29,7 @@ body>ul>li{
   margin: auto;
   text-align: center;
   width: 100%;
-  padding: 1em;
+  padding: 1em 4em;
 }
 .mm01 h1{
   
@@ -49,9 +49,16 @@ body>ul>li{
 }
 footer{
   margin: auto;
-  background-color: #ddd;
-  bottom: 3em;
-  left: 3em;
+  bottom: 2em;
+  left: 2em;
+  position: absolute;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  max-width: 28vw;
+  text-align: center;
+  background-color: #eee;
+  backdrop-filter: blur(2px);
+  backdrop-filter: opacity(80%);
 }
 
 
