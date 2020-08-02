@@ -8,11 +8,12 @@ body{
   margin: auto;
   padding: 0;
   margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 body>ul{
   display: grid;
-  grid-template-columns: 1fr 1.48fr 1fr;
-  grid-template-rows:20vh 1fr 20vh;
+  grid-template-columns: 1fr 1fr 1fr 1.48fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
   list-style: none;
   grid-gap: 1px;
   margin: auto;
@@ -24,11 +25,22 @@ body>ul>li{
 }
 .mm01{
   grid-row: 2;
-  grid-column: 2;
+  grid-column: 4;
   margin: auto;
   text-align: center;
   width: 100%;
   padding: 1em;
+}
+.mm01 h1{
+  
+  font-weight: 900;
+}
+.mm01 span{
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: small;
+    line-height: 1.6em;
 }
 .mm01 img{
   max-width: 80px;
@@ -38,30 +50,24 @@ body>ul>li{
 footer{
   margin: auto;
   background-color: #ddd;
-  min-height: 35vh;
-  padding-top: 3em;
-}
-footer ul{
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-}
-footer ul li
-{
-    margin-right: 1em;
-}
-footer img{
-  max-width: 20px;
-  height: auto;
-  margin: auto auto 18px;
+  bottom: 3em;
+  left: 3em;
 }
 
 
-/*
+
 @media(prefers-color-scheme:dark) {
   body{
+    background-color: #000000;
     color: #ccc;
-    background-color: #111;
+  }
+  .mm01>span{
+    
+  }
+  body>ul>li{
+    background-color: #161614;
+  }
+  footer{
+      background-color: #000;
   }
 }
-*/
