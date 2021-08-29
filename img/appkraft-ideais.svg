@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="150px" viewBox="0 0 152 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <defs>
+        <linearGradient x1="18.5221354%" y1="86.014374%" x2="77.4473248%" y2="13.4563856%" id="linearGradient-1">
+            <stop stop-color="#0E1F44" offset="0%"></stop>
+            <stop stop-color="#1D366B" offset="63.1718381%"></stop>
+            <stop stop-color="#3159AD" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1242,72 C1278.45079,72 1308,100.877634 1308,136.5 C1308,172.122366 1278.45079,201 1242,201 C1205.54921,201 1176,172.122366 1176,136.5 C1176,100.877634 1205.54921,72 1242,72 Z M1242,90.2424242 C1215.77388,90.2424242 1194.48,110.934113 1194.48,136.5 C1194.48,162.065887 1215.77388,182.757576 1242,182.757576 C1268.22612,182.757576 1289.52,162.065887 1289.52,136.5 C1289.52,110.934113 1268.22612,90.2424242 1242,90.2424242 Z M1242,95.4545455 C1265.32851,95.4545455 1284.24,113.831221 1284.24,136.5 C1284.24,159.168779 1265.32851,177.545454 1242,177.545454 C1218.67149,177.545454 1199.76,159.168779 1199.76,136.5 C1199.76,113.831221 1218.67149,95.4545455 1242,95.4545455 Z M1242,112.393939 C1228.51321,112.393939 1217.58,123.18659 1217.58,136.5 C1217.58,149.81341 1228.51321,160.606061 1242,160.606061 C1255.48679,160.606061 1266.42,149.81341 1266.42,136.5 C1266.42,123.18659 1255.48679,112.393939 1242,112.393939 Z M1242,117.606061 C1252.57073,117.606061 1261.14,126.065165 1261.14,136.5 C1261.14,146.934835 1252.57073,155.393939 1242,155.393939 C1231.42927,155.393939 1222.86,146.934835 1222.86,136.5 C1222.86,126.065165 1231.42927,117.606061 1242,117.606061 Z" id="path-2"></path>
+        <filter x="-15.2%" y="-8.5%" width="130.3%" height="131.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter4" result="shadowBlurOuter4"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter5"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter5" result="shadowBlurOuter5"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter5" result="shadowMatrixOuter5"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter6"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter6" result="shadowBlurOuter6"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter6" result="shadowMatrixOuter6"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter5"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter6"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Combined-Shape" transform="translate(-1166.000000, -71.000000)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>
